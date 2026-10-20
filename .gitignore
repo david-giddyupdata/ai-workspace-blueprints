@@ -1,0 +1,25 @@
+# Never commit keys or local settings
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+client_secret*.json
+*_token.json
+token.json
+.claude/settings.local.json
+.claude/skills/
+
+# Python and Node
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+node_modules/
+
+# Operating system clutter
+Thumbs.db
+.DS_Store
+desktop.ini
